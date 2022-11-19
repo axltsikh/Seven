@@ -4,6 +4,11 @@ import org.junit.Test;
 public class Tests {
 
     @Test
+    public void ClassTest(){
+        Calculator calc=new Calculator();
+        Triangle triangle=new Triangle();
+    }
+    @Test
     public void Sum_2and6_Test(){
         double a = 2.0;
         double b = 6.0;
